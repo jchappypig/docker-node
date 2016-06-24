@@ -1,4 +1,4 @@
-FROM node:5.11.1
+FROM node:6.2.2-onbuild
 
 # Bundle app source
 RUN mkdir -p /usr/src/app
